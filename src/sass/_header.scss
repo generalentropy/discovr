@@ -1,0 +1,10 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.header {
+  @include m.flex-center;
+  // @include m.b;
+  color: c.$text;
+
+  padding: 20px 10px;
+}
