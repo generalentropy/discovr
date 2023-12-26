@@ -2,6 +2,18 @@
 @use "_mixins" as m;
 
 body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-family: "Roboto", sans-serif;
   background-color: c.$bg-main;
+}
+
+.app-container {
+  @include m.b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
