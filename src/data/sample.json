@@ -1,0 +1,36 @@
+{
+  "serveurs": [
+    {
+      "id": "123456789",
+      "nom": "Gaming Hub",
+      "description": "Serveur dédié aux jeux vidéo et discussions générales.",
+      "nombreMembres": 1500,
+      "tags": ["jeux", "roleplay", "discussion"]
+    },
+    {
+      "id": "987654321",
+      "nom": "Code World",
+      "description": "Communauté pour les développeurs et passionnés de programmation.",
+      "nombreMembres": 3000,
+      "tags": ["dev", "frontend", "javascript", "backend"]
+    },
+    {
+      "id": "555666777",
+      "nom": "Art et Création",
+      "description": "Serveur pour les artistes et créatifs pour partager et discuter.",
+      "nombreMembres": 800,
+      "tags": [
+        "#ArtEtCreation",
+        "#CommunauteArtistique",
+        "#Creativite",
+        "#Artistes",
+        "#InspirationArtistique",
+        "#GalerieArt",
+        "#ConseilsArt",
+        "#Peinture",
+        "#Sculpture",
+        "#Photographie"
+      ]
+    }
+  ]
+}

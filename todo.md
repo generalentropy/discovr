@@ -28,10 +28,8 @@
 
 ---
 
-ftp.visualartisan.fr
-
-u554152823.cam
-
+ftp.visualartisan.fr  
+u554152823.cam  
 Xkfh@CnJ$g2p9VPJKCB!Eg$oQ
 
 ### 📌 Notes
