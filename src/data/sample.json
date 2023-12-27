@@ -4,7 +4,8 @@
       "id": "123456789",
       "nom": "Gaming Hub",
       "description": "Serveur dédié aux jeux vidéo et discussions générales.",
-      "nombreMembres": 1500,
+      "membres": 1500,
+      "online": 654,
       "tags": ["jeux", "roleplay", "discussion"],
       "note": [5, 3, 2, 1, 1, 5, 4]
     },
@@ -12,7 +13,8 @@
       "id": "987654321",
       "nom": "Code World",
       "description": "Communauté pour les développeurs et passionnés de programmation.",
-      "nombreMembres": 3000,
+      "membres": 3000,
+      "online": 356,
       "tags": ["dev", "frontend", "javascript", "backend"],
       "note": [5, 3, 2, 1, 1, 5, 4]
     },
@@ -20,7 +22,8 @@
       "id": "555666777",
       "nom": "Art et Création",
       "description": "Serveur pour les artistes et créatifs pour partager et discuter.",
-      "nombreMembres": 800,
+      "membres": 250,
+      "online": 54,
       "tags": [
         "ArtEtCreation",
         "CommunauteArtistique",
