@@ -2,7 +2,7 @@ import AppContainer from "./Container";
 import Header from "./Header";
 import Logo from "./Logo";
 import Card from "./Card";
-import CardContainer from "./Cards";
+import CardsContainer from "./Cards";
 import SearchBar from "./SearchBar";
 import SortBy from "./SortBy";
 
@@ -15,7 +15,7 @@ function App() {
       <SearchBar />
       <SortBy />
 
-      <CardContainer>
+      <CardsContainer>
         <Card />
         <Card />
         <Card />
@@ -24,7 +24,7 @@ function App() {
         <Card />
         <Card />
         <Card />
-      </CardContainer>
+      </CardsContainer>
     </AppContainer>
   );
 }

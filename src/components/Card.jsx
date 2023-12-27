@@ -2,7 +2,7 @@ import StarRating from "./StarRating";
 
 function Card() {
   return (
-    <div className="card-wrapper">
+    <div className="card-wrapper gradient-border">
       <StarRating />
 
       <div className="picture">
@@ -19,6 +19,7 @@ function Card() {
           1234 online
         </div>
       </div>
+      <span className="server-name">Grafikart - serveur officiel</span>
     </div>
   );
 }

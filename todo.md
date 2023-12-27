@@ -6,9 +6,9 @@
 [ x ] ~~Search bar~~  
 [ _ ] handle mobile viewport (searchbar)  
 [ _ ] Responsive search bar  
+[ _ ] Split hashtags into components  
 [ _ ] fix accessibility search bar  
 [ _ ] fix Firefox emoji length bug  
-[ _ ] Card  
 [ _ ] fix padding & margin inconsistency  
 [ _ ] fix typography inconsistency
 
