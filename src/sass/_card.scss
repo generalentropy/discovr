@@ -26,11 +26,11 @@
 .picture {
   box-sizing: content-box;
 
-  min-width: 80px;
-  min-height: 80px;
+  min-width: 70px;
+  min-height: 70px;
 
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 
   overflow: hidden;
 
@@ -46,7 +46,7 @@
 .info-wrapper {
   // @include m.b;
   display: flex;
-  padding: 20px 0;
+  padding: 15px 0;
   color: azure;
   align-items: center;
 }
@@ -70,7 +70,7 @@
 .server-name {
   // @include m.b;
 
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 22px;
   font-weight: 800;
   color: c.$soft-white;
@@ -84,6 +84,7 @@
 }
 
 .join-button {
+  cursor: pointer;
   color: c.$soft-white;
   background-color: c.$accent;
   letter-spacing: 0.5px;
@@ -91,6 +92,13 @@
   padding: 8px 16px;
   border-radius: 50px;
   margin: 10px 0;
+}
+
+.bump {
+  padding: 10px;
+  color: c.$soft-white;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 // Card animated border --------------------------------

@@ -3,6 +3,8 @@ import Hashtag from "./Hashtag";
 import ServerInfo from "./Info";
 import JoinButton from "./JoinButton";
 
+const bumpNum = 25;
+
 // ! maximum tag number check
 // ! maximum hashtag length
 
@@ -62,6 +64,10 @@ function Card() {
       </div>
 
       <JoinButton name="Rejoindre ce serveur" />
+
+      <div className="bump">
+        Bumpé <strong>{bumpNum}</strong> fois 🚀
+      </div>
     </div>
   );
 }

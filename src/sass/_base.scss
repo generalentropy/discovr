@@ -9,6 +9,9 @@ body {
   background-color: c.$bg-main;
 }
 
+strong {
+  font-weight: bold;
+}
 .app-container {
   // @include m.b;
   display: flex;
