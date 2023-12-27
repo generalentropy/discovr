@@ -31,7 +31,7 @@ export default function StarRating({
   color = "#fcc419",
   size = 20,
   className = "",
-  messages = [],
+  // messages = [],
   defaultRating = 0,
   onSetRating,
 }) {
@@ -44,12 +44,12 @@ export default function StarRating({
     onSetRating && onSetRating(rating);
   }
 
-  const textStyle = {
-    lineHeight: "1",
-    margin: "0",
-    color,
-    fontSize: `${size / 1.5}px`,
-  };
+  // const textStyle = {
+  //   lineHeight: "1",
+  //   margin: "0",
+  //   color,
+  //   fontSize: `${size / 1.5}px`,
+  // };
 
   return (
     <div style={containerStyle} className={className}>

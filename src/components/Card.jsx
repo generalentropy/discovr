@@ -1,4 +1,39 @@
 import StarRating from "./StarRating";
+import Hashtag from "./Hashtag";
+
+// ! maximum tag number check
+// ! maximum hashtag length
+
+// const cards = {
+//   1: {
+//     name: "Grafikart",
+//     tags: [
+//       "dev",
+//       "design",
+//       "frontend",
+//       "javascript",
+//       "backend",
+//       "france",
+//       "programmation",
+//       "dev",
+//     ],
+
+//     serverlink: "",
+//     description: "",
+//     members: "",
+//     online: "",
+//   },
+// };
+
+const tags = [
+  "dev",
+  "design",
+  "frontend",
+  "javascript",
+  "backend",
+  "france",
+  "programmation",
+];
 
 function Card() {
   return (
@@ -20,6 +55,17 @@ function Card() {
         </div>
       </div>
       <span className="server-name">Grafikart - serveur officiel</span>
+
+      <div className="tags-wrapper">
+        {tags.map((tag, i) => (
+          <Hashtag name={tag} key={i} />
+        ))}
+      </div>
+
+      <div className="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </div>
     </div>
   );
 }
