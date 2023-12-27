@@ -5,14 +5,16 @@
       "nom": "Gaming Hub",
       "description": "Serveur dédié aux jeux vidéo et discussions générales.",
       "nombreMembres": 1500,
-      "tags": ["jeux", "roleplay", "discussion"]
+      "tags": ["jeux", "roleplay", "discussion"],
+      "note": [5, 3, 2, 1, 1, 5, 4]
     },
     {
       "id": "987654321",
       "nom": "Code World",
       "description": "Communauté pour les développeurs et passionnés de programmation.",
       "nombreMembres": 3000,
-      "tags": ["dev", "frontend", "javascript", "backend"]
+      "tags": ["dev", "frontend", "javascript", "backend"],
+      "note": [5, 3, 2, 1, 1, 5, 4]
     },
     {
       "id": "555666777",
@@ -20,17 +22,18 @@
       "description": "Serveur pour les artistes et créatifs pour partager et discuter.",
       "nombreMembres": 800,
       "tags": [
-        "#ArtEtCreation",
-        "#CommunauteArtistique",
-        "#Creativite",
-        "#Artistes",
-        "#InspirationArtistique",
-        "#GalerieArt",
-        "#ConseilsArt",
-        "#Peinture",
-        "#Sculpture",
-        "#Photographie"
-      ]
+        "ArtEtCreation",
+        "CommunauteArtistique",
+        "Creativite",
+        "Artistes",
+        "InspirationArtistique",
+        "GalerieArt",
+        "ConseilsArt",
+        "Peinture",
+        "Sculpture",
+        "Photographie"
+      ],
+      "note": [5, 3, 2, 1, 1, 5, 4]
     }
   ]
 }
