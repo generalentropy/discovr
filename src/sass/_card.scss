@@ -2,22 +2,64 @@
 @use "_mixins" as m;
 
 .cards-container {
-  @include m.b;
   display: flex;
-
   justify-content: center;
   gap: 40px;
   max-width: 1500px;
   flex-wrap: wrap;
-
   margin: 40px 0;
 }
 
 .card-wrapper {
   @include m.b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202132;
   width: 320px;
   height: 480px;
   border-radius: 25px;
 }
 
-//------------
+.picture {
+  box-sizing: content-box;
+
+  min-width: 80px;
+  min-height: 80px;
+
+  width: 80px;
+  height: 80px;
+
+  overflow: hidden;
+
+  border-radius: 50%;
+  border: 10px solid c.$soft-white;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+}
+
+.info-wrapper {
+  // @include m.b;
+  display: flex;
+  padding: 20px 0;
+  color: azure;
+  align-items: center;
+}
+
+.members,
+.online {
+  display: flex;
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: 600;
+  background-color: rgb(3, 141, 141);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#info-icons {
+  margin-right: 5px;
+}

@@ -4,11 +4,16 @@ import PropTypes from "prop-types";
 const containerStyle = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
   gap: "16px",
+  padding: "10px 0",
 };
 
 const starContainerStyle = {
   display: "flex",
+  padding: "5px 20px",
+  borderRadius: "5px",
+  // backgroundColor: "#1C3455",
 };
 
 StarRating.propTypes = {
@@ -24,7 +29,7 @@ StarRating.propTypes = {
 export default function StarRating({
   maxRating = 5,
   color = "#fcc419",
-  size = 48,
+  size = 20,
   className = "",
   messages = [],
   defaultRating = 0,
@@ -62,11 +67,11 @@ export default function StarRating({
           />
         ))}
       </div>
-      <p style={textStyle}>
+      {/* <p style={textStyle}>
         {messages.length === maxRating
           ? messages[tempRating ? tempRating - 1 : rating - 1]
           : tempRating || rating || ""}
-      </p>
+      </p> */}
     </div>
   );
 }

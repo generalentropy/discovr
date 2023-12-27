@@ -3,8 +3,14 @@
 ## 🧑‍💻 App
 
 [ x ] ~~Create the file structure~~  
-[ _ ]  
-[ _ ]
+[ x ] ~~Search bar~~  
+[ _ ] handle mobile viewport (searchbar)  
+[ _ ] Responsive search bar  
+[ _ ] fix accessibility search bar  
+[ _ ] fix Firefox emoji length bug  
+[ _ ] Card  
+[ _ ] fix padding & margin inconsistency  
+[ _ ] fix typography inconsistency
 
 ## 🛠️ Backend
 

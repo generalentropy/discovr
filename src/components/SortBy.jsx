@@ -6,6 +6,7 @@ function SortBy() {
         <option value="popularity">⭐ Popularité </option>
         <option value="bump">🚀 Dernier bump </option>
         <option value="members">📈 Nombre de membres </option>
+        <option value="online">🔥Membres en ligne </option>
         <option value="random">🎲 Au hasard </option>
       </select>
     </div>
