@@ -11,6 +11,8 @@
 [ _ ] fix Firefox emoji length bug  
 [ _ ] fix padding & margin inconsistency  
 [ _ ] fix typography inconsistency
+[ _ ] add bot button
+[ _ ] doc
 
 ## 🛠️ Backend
 
