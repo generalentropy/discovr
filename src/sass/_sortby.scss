@@ -1,0 +1,29 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.sort {
+  @include m.b;
+
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 40px 40px 40px 0;
+  color: c.$text;
+
+  align-items: center;
+}
+
+select {
+  width: 250px;
+  margin: 0 10px;
+  color: c.$text;
+  border-radius: 0.25em;
+  padding: 10px;
+
+  cursor: pointer;
+
+  background-color: c.$headset-blue-logo;
+}

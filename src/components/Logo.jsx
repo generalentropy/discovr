@@ -10,8 +10,8 @@ const Logo = ({ title, titleId, ...props }) => (
       strokeMiterlimit: 2,
     }}
     viewBox="0 0 289 80"
-    width="289"
-    height="80"
+    width="240"
+    // height="80"
     aria-labelledby={titleId}
     {...props}
   >

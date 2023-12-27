@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import Card from "./Card";
 import CardContainer from "./Cards";
 import SearchBar from "./SearchBar";
+import SortBy from "./SortBy";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Logo />
       </Header>
       <SearchBar />
+      <SortBy />
 
       <CardContainer>
         <Card />

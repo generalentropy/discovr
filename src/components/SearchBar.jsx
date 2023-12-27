@@ -1,4 +1,5 @@
 import DiscordLogo from "./DiscordLogo";
+// import SearchIcon from "./SearchIcon";
 
 function SearchBar() {
   return (
@@ -10,11 +11,16 @@ function SearchBar() {
         </span>
       </div>
 
-      <input
-        type="search"
-        id="search"
-        placeholder="Chercher par nom, centre d'intérêt, tag..."
-      ></input>
+      <form>
+        <label htmlFor="search">Search</label>
+        <input
+          className="search"
+          type="search"
+          id="search"
+          placeholder="Chercher par nom, centre d'intérêt, tag..."
+          autoComplete="off"
+        ></input>
+      </form>
     </div>
   );
 }
