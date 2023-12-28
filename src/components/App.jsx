@@ -19,9 +19,9 @@ function App() {
           <SearchOptions />
         </SearchBar>
 
-        <SortBy />
-
-        <CardsContainer />
+        <CardsContainer>
+          <SortBy />
+        </CardsContainer>
       </AppContainer>
     </ThemeProvider>
   );

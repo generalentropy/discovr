@@ -9,6 +9,9 @@
 - [x] ~~handle incorrect hashtags~~
 - [x] ~~Create Dummy API~~
 - [x] ~~Split hashtags into components~~
+- [x] ~~MUI + theme~~
+- [x] ~~Search options~~
+
 - [ ] handle missing img (default img)
 
 - [ ] handle app loading / loader

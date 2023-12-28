@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function SearchOptions() {
   const [tagsChecked, setTagsChecked] = useState(true);
-  const [descriptionChecked, setDescriptionChecked] = useState(true);
+  const [descriptionChecked, setDescriptionChecked] = useState(false);
   const [nameChecked, setNameChecked] = useState(false);
 
   return (

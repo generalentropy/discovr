@@ -1,0 +1,29 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.loader-container {
+  padding: 100px;
+}
+
+.loader {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #ff4081 94%, #0000) top/16px 16px
+      no-repeat,
+    conic-gradient(#0000 30%, #ff4081);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 16px), #000 0);
+  mask: radial-gradient(
+    farthest-side,
+    #0000 calc(100% - 16px),
+    #000 0
+  ); /* Standard */
+  animation: s3 0.4s infinite linear;
+}
+
+@keyframes s3 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
