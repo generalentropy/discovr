@@ -11,7 +11,10 @@
 }
 
 .tags-wrapper {
+  @include m.b;
   display: flex;
+  height: 70px;
+
   justify-content: center;
   flex-wrap: wrap;
 }

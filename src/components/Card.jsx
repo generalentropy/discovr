@@ -4,17 +4,17 @@ import ServerInfoWrapper from "./Info";
 import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
-const tags = [
-  "dev",
-  "design",
-  "frontend",
-  "javascript",
-  "backend",
-  "france",
-  "programmation",
-];
+// const tags = [
+//   "dev",
+//   "design",
+//   "frontend",
+//   "javascript",
+//   "backend",
+//   "france",
+//   "programmation",
+// ];
 
-function Card({ nom, image, desc, bump, online }) {
+function Card({ nom, image, desc, bump, online, tags }) {
   function descriptionCleaner(description) {
     const serverDescription = description.trim();
     const MAX_LENGTH = 150;
@@ -28,6 +28,16 @@ function Card({ nom, image, desc, bump, online }) {
 
     return serverDescription;
   }
+
+  function hashtagsCleaner(tags) {
+    if (tags.length > 6) {
+      return tags.slice(0, 6);
+    }
+
+    return tags;
+  }
+
+  const cardTags = hashtagsCleaner(tags);
 
   function randomizeImgQuery() {
     return `?random=${Math.floor(Math.random() * 51)}`;
@@ -56,7 +66,7 @@ function Card({ nom, image, desc, bump, online }) {
       <span className="server-name">{nom}</span>
 
       <div className="tags-wrapper">
-        {tags.map((tag, i) => (
+        {cardTags.map((tag, i) => (
           <Hashtag name={tag} key={i} />
         ))}
       </div>

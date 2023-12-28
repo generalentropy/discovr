@@ -5,15 +5,20 @@
 [ x ] ~~Create the file structure~~  
 [ x ] ~~Search bar~~  
 [ X ] ~~Fix server image (object-fit) and border aliasing~~  
-[ _ ] add default server image  
+[ x ] ~~handle incorrect server description~~  
+[ x ] ~~handle incorrect hashtags~~  
+[ x ] ~~Create Dummy API~~  
+[ x ] ~~Split hashtags into components~~  
+[ _ ] handle missing img (default img)
+
 [ _ ] handle mobile viewport (searchbar)  
-[ _ ] Responsive search bar  
-[ _ ] Split hashtags into components  
+[ _ ] fix flickering border (background) on Firefox  
+[ _ ] Responsive search bar
 [ _ ] fix accessibility search bar  
 [ _ ] fix Firefox emoji length bug  
 [ _ ] fix padding & margin inconsistency  
-[ _ ] fix typography inconsistency
-[ _ ] "add bot" button
+[ _ ] fix typography inconsistency  
+[ _ ] ( add bot ) button  
 [ _ ] doc
 
 ## 🛠️ Backend
