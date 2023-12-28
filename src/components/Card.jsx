@@ -16,6 +16,20 @@ const tags = [
 ];
 
 function Card() {
+  function descriptionCleaner(description) {
+    const serverDescription = description.trim();
+    const MAX_LENGTH = 150;
+
+    if (serverDescription.length > MAX_LENGTH) {
+      let cleaned = description.substring(0, MAX_LENGTH);
+      // Suppression de l'espace en fin de chaîne si nécessaire
+      cleaned = cleaned.replace(/\s+$/, "");
+      return cleaned + "...";
+    }
+
+    return serverDescription;
+  }
+
   return (
     <div className="card-wrapper gradient-border">
       <StarRating />
@@ -25,12 +39,12 @@ function Card() {
       </div>
 
       <ServerInfoWrapper>
-        <InfoElement className="members">
+        <InfoElement className="members" style={{ backgroundColor: "#29b6f6" }}>
           <MembersIcon className="info-icon" />
           3456 membres
         </InfoElement>
 
-        <InfoElement className="online">
+        <InfoElement className="online" style={{ backgroundColor: "#2794c7" }}>
           <OnlineIcon className="info-icon pulse" />
           1234 online
         </InfoElement>
@@ -45,8 +59,9 @@ function Card() {
       </div>
 
       <div className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore.
+        {descriptionCleaner(
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+        )}
       </div>
 
       <JoinButton name="Rejoindre ce serveur" />
@@ -58,8 +73,12 @@ function Card() {
   );
 }
 
-function InfoElement({ className, children }) {
-  return <div className={className}>{children}</div>;
+function InfoElement({ className, children, style }) {
+  return (
+    <div style={style} className={className}>
+      {children}
+    </div>
+  );
 }
 
 function OnlineIcon(props) {

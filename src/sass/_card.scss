@@ -19,7 +19,7 @@
   align-items: center;
   background-color: #202132;
   width: 320px;
-  height: 480px;
+  height: 490px;
   border-radius: 25px;
 }
 
@@ -101,7 +101,7 @@
   font-weight: 400;
 }
 
-// Card animated border --------------------------------
+// Card animated border
 .gradient-border {
   --border-width: 3px;
 
@@ -155,7 +155,6 @@
 */
 
 // Pulse animation
-
 .pulse {
   animation: pulse-animation 2s infinite;
   border-radius: 50px;
@@ -163,9 +162,9 @@
 
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.4);
   }
   100% {
-    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
   }
 }
