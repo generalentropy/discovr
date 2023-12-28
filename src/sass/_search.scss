@@ -1,15 +1,13 @@
 @use "_colors" as c;
 @use "_mixins" as m;
 
-// https://nikitahl.com/search-icon-inside-input
-
 .search-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: c.$text;
   margin: 50px 0;
-  //   @include m.b;
+  // @include m.b;
 }
 
 .title {
@@ -67,4 +65,21 @@ input:focus {
   -o-box-shadow: 0 0 30px #c8e0ef;
   -ms-box-shadow: 0 0 30px #c8e0ef;
   box-shadow: 0 0 30px #c8e0ef;
+}
+
+.search-options {
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  // @include m.b;
+  font-weight: 800;
+  width: 100%;
+  // color: c.$soft-white;
+}
+
+.option {
+  font-size: 18px;
+  font-weight: 400;
 }

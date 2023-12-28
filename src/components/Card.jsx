@@ -5,6 +5,20 @@ import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
 function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
+  function serverNameCleaner(server) {
+    const servername = server.trim();
+    const MAX_LENGTH = 22;
+
+    if (server.length > MAX_LENGTH) {
+      let cleaned = server.substring(0, MAX_LENGTH);
+      // Delete trailing space if necessary
+      const output = cleaned.replace(/\s+$/, "");
+      return output + "...";
+    }
+
+    return servername;
+  }
+
   function descriptionCleaner(description) {
     const serverDescription = description.trim();
     const MAX_LENGTH = 150;
@@ -12,14 +26,16 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
     if (serverDescription.length > MAX_LENGTH) {
       let cleaned = description.substring(0, MAX_LENGTH);
       // Delete trailing space if necessary
-      cleaned = cleaned.replace(/\s+$/, "");
-      return cleaned + "...";
+      const output = cleaned.replace(/\s+$/, "");
+      return output + "...";
     }
 
     return serverDescription;
   }
 
   function hashtagsCleaner(tags) {
+    if (tags.length === 0) return ["discovr", "server", "discord"];
+
     let MAX_TAGS = 6;
 
     const tagsTotalLength = tags.reduce(
@@ -46,7 +62,7 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
   }
 
   function computeRating(ratings) {
-    if (!ratings) return 0;
+    if (ratings.length === 0) return 0;
 
     const totalRating = ratings.reduce(
       (acc, currRating) => acc + currRating,
@@ -78,7 +94,7 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
         </InfoElement>
       </ServerInfoWrapper>
 
-      <span className="server-name">{nom}</span>
+      <span className="server-name">{serverNameCleaner(nom)}</span>
 
       <div className="tags-wrapper">
         {cardTags.map((tag, i) => (

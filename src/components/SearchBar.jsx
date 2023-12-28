@@ -1,7 +1,7 @@
 import DiscordLogo from "./DiscordLogo";
 // import SearchIcon from "./SearchIcon";
 
-function SearchBar() {
+function SearchBar({ children }) {
   return (
     <div className="search-wrapper">
       <div className="title">
@@ -21,6 +21,7 @@ function SearchBar() {
           autoComplete="off"
         ></input>
       </form>
+      {children}
     </div>
   );
 }

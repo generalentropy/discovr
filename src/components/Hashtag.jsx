@@ -5,6 +5,10 @@ function Hashtag({ customStyle, name }) {
 
   // #server #discord #discovr
 
+  if (hashtagName === "server") bgColor = "#f45bf1";
+  if (hashtagName === "discovr") bgColor = "#00c7ba";
+  if (hashtagName === "discord") bgColor = "#f7754f";
+
   if (hashtagName === "dev") bgColor = "#00c7ba";
   if (hashtagName === "javascript") bgColor = "#ffa726";
   if (hashtagName === "france") bgColor = "#29b6f6";
