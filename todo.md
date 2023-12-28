@@ -2,17 +2,17 @@
 
 ## 🧑‍💻 App
 
-[ x ] ~~Create the file structure~~  
-[ x ] ~~Search bar~~  
-[ X ] ~~Fix server image (object-fit) and border aliasing~~  
-[ x ] ~~handle incorrect server description~~  
-[ x ] ~~handle incorrect hashtags~~  
-[ x ] ~~Create Dummy API~~  
-[ x ] ~~Split hashtags into components~~  
-[ _ ] handle missing img (default img)
+- [x] ~~Create the file structure~~
+- [x] ~~Search bar~~
+- [x] ~~Fix server image (object-fit) and border aliasing~~
+- [x] ~~handle incorrect server description~~
+- [x] ~~handle incorrect hashtags~~
+- [x] ~~Create Dummy API~~
+- [x] ~~Split hashtags into components~~
+- [ ] handle missing img (default img)
 
 [ _ ] handle mobile viewport (searchbar)  
-[ _ ] fix flickering border (background) on Firefox  
+[ _ ] ! fix flickering border (background) on Firefox  
 [ _ ] Responsive search bar
 [ _ ] fix accessibility search bar  
 [ _ ] fix Firefox emoji length bug  
