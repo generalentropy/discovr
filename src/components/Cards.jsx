@@ -1,19 +1,35 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Card from "./Card";
 
-function Cards({ children }) {
+function Cards() {
+  const [serversList, setServersList] = useState([]);
+
   useEffect(() => {
     const fetchData = async function () {
       const res = await fetch("http://localhost:8000/serveurs");
 
       const data = await res.json();
 
-      console.log(data);
+      setServersList(data);
     };
 
     fetchData();
-  });
+  }, []);
 
-  return <div className="cards-container">{children}</div>;
+  return (
+    <div className="cards-container">
+      {serversList.map((serveur) => (
+        <Card
+          key={serveur.id}
+          nom={serveur.nom}
+          image={serveur.image}
+          desc={serveur.description}
+          bump={serveur.bump}
+          online={serveur.online}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default Cards;

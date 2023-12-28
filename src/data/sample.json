@@ -2,9 +2,10 @@
   "serveurs": [
     {
       "id": "123456789",
-      "image": "https://i.imgur.com/sO29Ohi.png",
+      "bump": 10,
+      "image": "https://picsum.photos/200",
       "nom": "Gaming Hub",
-      "description": "Serveur dédié aux jeux vidéo et discussions générales.",
+      "description": "Un espace dynamique pour les amateurs de jeux vidéo. Échangez sur vos jeux préférés, partagez des astuces et participez à des tournois en ligne.",
       "membres": 1500,
       "online": 654,
       "tags": ["jeux", "roleplay", "discussion"],
@@ -12,6 +13,8 @@
     },
     {
       "id": "987654321",
+      "bump": 76,
+      "image": "https://picsum.photos/200",
       "nom": "Code World",
       "description": "Communauté pour les développeurs et passionnés de programmation.",
       "membres": 3000,
@@ -21,6 +24,8 @@
     },
     {
       "id": "555666777",
+      "bump": 66,
+      "image": "https://picsum.photos/200",
       "nom": "Art et Création",
       "description": "Serveur pour les artistes et créatifs pour partager et discuter.",
       "membres": 250,
@@ -41,6 +46,8 @@
     },
     {
       "id": "1230986789",
+      "bump": 8,
+      "image": "https://picsum.photos/200",
       "nom": "Grafikart - serveur officiel",
       "image:": "https://i.imgur.com/O8uGnnb.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet",
@@ -59,6 +66,8 @@
     },
     {
       "id": "976018175",
+      "bump": 70,
+      "image": "https://picsum.photos/200",
       "nom": "Mystère Débats",
       "description": "Serveur dédié aux sports et discussions générales.",
       "membres": 1668,
@@ -68,6 +77,8 @@
     },
     {
       "id": "674509585",
+      "bump": 13,
+      "image": "https://picsum.photos/200",
       "nom": "Pirate Arts",
       "description": "Serveur dédié aux discussions sociales et discussions générales.",
       "membres": 961,
@@ -77,6 +88,8 @@
     },
     {
       "id": "387794656",
+      "bump": 17,
+      "image": "https://picsum.photos/200",
       "nom": "Galaxie Débats",
       "description": "Serveur dédié aux discussions sociales et discussions générales.",
       "membres": 2789,
@@ -86,6 +99,8 @@
     },
     {
       "id": "438640063",
+      "bump": 89,
+      "image": "https://picsum.photos/200",
       "nom": "Fantasy Jeux",
       "description": "Serveur dédié à la technologie et discussions générales.",
       "membres": 967,
@@ -96,6 +111,8 @@
 
     {
       "id": "748953414",
+      "bump": 9,
+      "image": "https://picsum.photos/200",
       "nom": "Jungle Débats",
       "description": "Serveur dédié aux sports et discussions générales.",
       "membres": 1010,
@@ -105,7 +122,9 @@
     },
 
     {
-      "id": "873250510",
+      "id": "873234510",
+      "bump": 17,
+      "image": "https://picsum.photos/200",
       "nom": "Galaxie Musique",
       "description": "Serveur dédié aux films et discussions générales.",
       "membres": 1212,
@@ -115,7 +134,9 @@
     },
 
     {
-      "id": "873250510",
+      "id": "873298510",
+      "bump": 127,
+      "image": "https://picsum.photos/200",
       "nom": "Galaxie Musique",
       "description": "Serveur dédié aux films et discussions générales.",
       "membres": 1212,
@@ -125,7 +146,9 @@
     },
 
     {
-      "id": "873250510",
+      "id": "87309850510",
+      "bump": 56,
+      "image": "https://picsum.photos/200",
       "nom": "Galaxie Musique",
       "description": "Serveur dédié aux films et discussions générales.",
       "membres": 1212,

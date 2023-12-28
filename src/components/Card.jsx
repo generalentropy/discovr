@@ -4,8 +4,6 @@ import ServerInfoWrapper from "./Info";
 import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
-const bumpNum = 25;
-
 const tags = [
   "dev",
   "design",
@@ -16,7 +14,7 @@ const tags = [
   "programmation",
 ];
 
-function Card() {
+function Card({ nom, image, desc, bump, online }) {
   function descriptionCleaner(description) {
     const serverDescription = description.trim();
     const MAX_LENGTH = 150;
@@ -31,12 +29,16 @@ function Card() {
     return serverDescription;
   }
 
+  function randomizeImgQuery() {
+    return `?random=${Math.floor(Math.random() * 51)}`;
+  }
+
   return (
     <div className="card-wrapper gradient-border">
       <StarRating />
 
       <div className="picture">
-        <img src="src/assets/profil.jpg"></img>
+        <img src={image + randomizeImgQuery()}></img>
       </div>
 
       <ServerInfoWrapper>
@@ -47,11 +49,11 @@ function Card() {
 
         <InfoElement className="online" style={{ backgroundColor: "#2794c7" }}>
           <OnlineIcon className="info-icon pulse" />
-          1234 online
+          {online} online
         </InfoElement>
       </ServerInfoWrapper>
 
-      <span className="server-name">Grafikart - serveur officiel</span>
+      <span className="server-name">{nom}</span>
 
       <div className="tags-wrapper">
         {tags.map((tag, i) => (
@@ -59,16 +61,12 @@ function Card() {
         ))}
       </div>
 
-      <div className="description">
-        {descriptionCleaner(
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
-        )}
-      </div>
+      <div className="description">{descriptionCleaner(desc)}</div>
 
       <JoinButton name="Rejoindre ce serveur" />
 
       <div className="bump">
-        Bumpé <strong>{bumpNum}</strong> fois 🚀
+        Bumpé <strong>{bump}</strong> fois 🚀
       </div>
     </div>
   );
