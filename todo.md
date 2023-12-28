@@ -20,6 +20,7 @@
 - [ ] fix padding & margin inconsistency
 - [ ] fix typography inconsistency
 - [ ] ( add bot ) button
+- [ ] join button (hover effect)
 - [ ] doc
 
 ## 🛠️ Backend
