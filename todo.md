@@ -11,6 +11,7 @@
 - [x] ~~Split hashtags into components~~
 - [ ] handle missing img (default img)
 
+- [ ] handle app loading / loader
 - [ ] handle mobile viewport (searchbar)
 - [ ] ! fix flickering border (background) on Firefox
 - [ ] Responsive search bar
