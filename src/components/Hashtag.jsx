@@ -47,7 +47,7 @@ function Hashtag({ customStyle, name }) {
 
   return (
     <div className="hashtag" style={{ ...style, ...customStyle }}>
-      #{name}
+      #{hashtagName}
     </div>
   );
 }

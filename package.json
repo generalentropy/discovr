@@ -14,6 +14,7 @@
     "json-server": "^0.17.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-simple-star-rating": "^5.1.7",
     "sass": "^1.69.5",
     "the-new-css-reset": "^1.11.2",
     "vite-plugin-svgr": "^4.2.0"

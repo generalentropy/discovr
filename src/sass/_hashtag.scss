@@ -4,6 +4,7 @@
 // 100/300/400/500/700/900
 
 .hashtag {
+  max-height: 21px;
   margin: 5px;
   color: c.$soft-white;
   font-size: 13px;
@@ -11,10 +12,10 @@
 }
 
 .tags-wrapper {
-  @include m.b;
   display: flex;
+  align-items: center;
   height: 70px;
-
+  overflow: hidden;
   justify-content: center;
   flex-wrap: wrap;
 }

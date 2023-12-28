@@ -4,24 +4,14 @@ import ServerInfoWrapper from "./Info";
 import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
-// const tags = [
-//   "dev",
-//   "design",
-//   "frontend",
-//   "javascript",
-//   "backend",
-//   "france",
-//   "programmation",
-// ];
-
-function Card({ nom, image, desc, bump, online, tags }) {
+function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
   function descriptionCleaner(description) {
     const serverDescription = description.trim();
     const MAX_LENGTH = 150;
 
     if (serverDescription.length > MAX_LENGTH) {
       let cleaned = description.substring(0, MAX_LENGTH);
-      // Suppression de l'espace en fin de chaîne si nécessaire
+      // Delete trailing space if necessary
       cleaned = cleaned.replace(/\s+$/, "");
       return cleaned + "...";
     }
@@ -30,22 +20,47 @@ function Card({ nom, image, desc, bump, online, tags }) {
   }
 
   function hashtagsCleaner(tags) {
-    if (tags.length > 6) {
-      return tags.slice(0, 6);
+    let MAX_TAGS = 6;
+
+    const tagsTotalLength = tags.reduce(
+      (acc, currentString) => acc + currentString.length,
+      0
+    );
+
+    if (tagsTotalLength > 70) {
+      MAX_TAGS = MAX_TAGS - 1;
+    }
+
+    if (tags.length > MAX_TAGS) {
+      return tags.slice(0, MAX_TAGS);
     }
 
     return tags;
   }
 
   const cardTags = hashtagsCleaner(tags);
+  const averageRating = computeRating(rating);
 
   function randomizeImgQuery() {
-    return `?random=${Math.floor(Math.random() * 51)}`;
+    return `?random=${Math.ceil(Math.random() * 51)}`;
+  }
+
+  function computeRating(ratings) {
+    if (!ratings) return 0;
+
+    const totalRating = ratings.reduce(
+      (acc, currRating) => acc + currRating,
+      0
+    );
+
+    const result = totalRating / ratings.length;
+
+    return Math.round(result);
   }
 
   return (
     <div className="card-wrapper gradient-border">
-      <StarRating />
+      <StarRating value={averageRating} />
 
       <div className="picture">
         <img src={image + randomizeImgQuery()}></img>
@@ -54,7 +69,7 @@ function Card({ nom, image, desc, bump, online, tags }) {
       <ServerInfoWrapper>
         <InfoElement className="members" style={{ backgroundColor: "#29b6f6" }}>
           <MembersIcon className="info-icon" />
-          3456 membres
+          {membres} membres
         </InfoElement>
 
         <InfoElement className="online" style={{ backgroundColor: "#2794c7" }}>

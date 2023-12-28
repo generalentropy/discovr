@@ -6,7 +6,7 @@
       "image": "https://picsum.photos/200",
       "nom": "Gaming Hub",
       "description": "Un espace dynamique pour les amateurs de jeux vidéo. Échangez sur vos jeux préférés, partagez des astuces et participez à des tournois en ligne.",
-      "membres": 1500,
+      "membres": 1467,
       "online": 654,
       "tags": ["jeux", "roleplay", "discussion"],
       "note": [5, 3, 2, 1, 1, 5, 4]
@@ -17,7 +17,7 @@
       "image": "https://picsum.photos/200",
       "nom": "Code World",
       "description": "Code World est un sanctuaire pour les programmeurs. Que vous soyez un débutant cherchant à apprendre les bases ou un développeur expérimenté désireux de partager votre expertise, ce serveur est une mine d'or d'informations et de ressources sur la programmation, les dernières technologies et les meilleures pratiques de développement.",
-      "membres": 3000,
+      "membres": 3197,
       "online": 356,
       "tags": ["dev", "frontend", "javascript", "backend"],
       "note": [5, 3, 2, 1, 1, 5, 4]
@@ -72,7 +72,7 @@
       "description": "Une communauté interactive pour les débats animés sur une multitude de sujets, allant de la politique à la culture pop. Idéal pour ceux qui cherchent à s'engager dans des discussions profondes et significatives.",
       "membres": 1668,
       "online": 218,
-      "tags": ["tech", "musique", "social"],
+      "tags": ["tech", "musique", "social", "culture", "popculture", "art"],
       "note": [1, 1, 1, 5, 3, 1, 1]
     },
     {
@@ -83,7 +83,15 @@
       "description": "Serveur dédié aux discussions sociales et discussions générales.",
       "membres": 961,
       "online": 1013,
-      "tags": ["films", "sports", "social"],
+      "tags": [
+        "films",
+        "sports",
+        "social",
+        "asso",
+        "art",
+        "litterature",
+        "philo"
+      ],
       "note": [2, 2, 5, 2, 5, 5, 5]
     },
     {
@@ -94,7 +102,14 @@
       "description": "Serveur dédié aux discussions sociales et discussions générales.",
       "membres": 2789,
       "online": 705,
-      "tags": ["social", "discussion", "films"],
+      "tags": [
+        "social",
+        "discussion",
+        "films",
+        "société",
+        "projets",
+        "politique"
+      ],
       "note": [1, 5, 2, 4, 3, 3, 4]
     },
     {

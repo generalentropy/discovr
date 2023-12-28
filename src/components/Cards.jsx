@@ -27,6 +27,8 @@ function Cards() {
           bump={serveur.bump}
           online={serveur.online}
           tags={serveur.tags}
+          membres={serveur.membres}
+          rating={serveur.note}
         />
       ))}
     </div>
