@@ -36,11 +36,13 @@
 
   border-radius: 50%;
   border: 10px solid c.$soft-white;
+  background-color: c.$soft-white;
 }
 
 .picture img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .info-wrapper {

@@ -4,6 +4,8 @@
 
 [ x ] ~~Create the file structure~~  
 [ x ] ~~Search bar~~  
+[ X ] ~~Fix server image (object-fit) and border aliasing~~  
+[ _ ] add default server image  
 [ _ ] handle mobile viewport (searchbar)  
 [ _ ] Responsive search bar  
 [ _ ] Split hashtags into components  
@@ -11,7 +13,7 @@
 [ _ ] fix Firefox emoji length bug  
 [ _ ] fix padding & margin inconsistency  
 [ _ ] fix typography inconsistency
-[ _ ] add bot button
+[ _ ] "add bot" button
 [ _ ] doc
 
 ## 🛠️ Backend
