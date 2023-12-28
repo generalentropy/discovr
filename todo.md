@@ -11,27 +11,27 @@
 - [x] ~~Split hashtags into components~~
 - [ ] handle missing img (default img)
 
-[ _ ] handle mobile viewport (searchbar)  
-[ _ ] ! fix flickering border (background) on Firefox  
-[ _ ] Responsive search bar
-[ _ ] fix accessibility search bar  
-[ _ ] fix Firefox emoji length bug  
-[ _ ] fix padding & margin inconsistency  
-[ _ ] fix typography inconsistency  
-[ _ ] ( add bot ) button  
-[ _ ] doc
+- [ ] handle mobile viewport (searchbar)
+- [ ] ! fix flickering border (background) on Firefox
+- [ ] Responsive search bar
+- [ ] fix accessibility search bar
+- [ ] fix Firefox emoji length bug
+- [ ] fix padding & margin inconsistency
+- [ ] fix typography inconsistency
+- [ ] ( add bot ) button
+- [ ] doc
 
 ## 🛠️ Backend
 
-[ _ ]  
-[ _ ]  
-[ _ ]
+- [ ]
+- [ ]
+- [ ]
 
 ## 🤖 Bot
 
-[ _ ]  
-[ _ ]  
-[ _ ]
+- [ ]
+- [ ]
+- [ ]
 
 ---
 
