@@ -2,6 +2,7 @@
   "serveurs": [
     {
       "id": "123456789",
+      "image": "https://i.imgur.com/sO29Ohi.png",
       "nom": "Gaming Hub",
       "description": "Serveur dédié aux jeux vidéo et discussions générales.",
       "membres": 1500,
@@ -37,6 +38,100 @@
         "Photographie"
       ],
       "note": [5, 3, 2, 1, 1, 5, 4]
+    },
+    {
+      "id": "1230986789",
+      "nom": "Grafikart - serveur officiel",
+      "image:": "https://i.imgur.com/O8uGnnb.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet",
+      "membres": 3456,
+      "online": 1234,
+      "tags": [
+        "dev",
+        "design",
+        "frontend",
+        "javascript",
+        "backend",
+        "france",
+        "programmation"
+      ],
+      "note": [5, 3, 2, 1, 1, 5, 4]
+    },
+    {
+      "id": "976018175",
+      "nom": "Mystère Débats",
+      "description": "Serveur dédié aux sports et discussions générales.",
+      "membres": 1668,
+      "online": 218,
+      "tags": ["tech", "musique", "social"],
+      "note": [1, 1, 1, 5, 3, 1, 1]
+    },
+    {
+      "id": "674509585",
+      "nom": "Pirate Arts",
+      "description": "Serveur dédié aux discussions sociales et discussions générales.",
+      "membres": 961,
+      "online": 1013,
+      "tags": ["films", "sports", "social"],
+      "note": [2, 2, 5, 2, 5, 5, 5]
+    },
+    {
+      "id": "387794656",
+      "nom": "Galaxie Débats",
+      "description": "Serveur dédié aux discussions sociales et discussions générales.",
+      "membres": 2789,
+      "online": 705,
+      "tags": ["social", "discussion", "films"],
+      "note": [1, 5, 2, 4, 3, 3, 4]
+    },
+    {
+      "id": "438640063",
+      "nom": "Fantasy Jeux",
+      "description": "Serveur dédié à la technologie et discussions générales.",
+      "membres": 967,
+      "online": 540,
+      "tags": ["musique", "sports", "tech"],
+      "note": [5, 4, 5, 1, 5, 5, 4]
+    },
+
+    {
+      "id": "748953414",
+      "nom": "Jungle Débats",
+      "description": "Serveur dédié aux sports et discussions générales.",
+      "membres": 1010,
+      "online": 799,
+      "tags": ["musique", "tech", "social"],
+      "note": [4, 3, 4, 1, 5, 3, 3]
+    },
+
+    {
+      "id": "873250510",
+      "nom": "Galaxie Musique",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
+    },
+
+    {
+      "id": "873250510",
+      "nom": "Galaxie Musique",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
+    },
+
+    {
+      "id": "873250510",
+      "nom": "Galaxie Musique",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
     }
   ]
 }
