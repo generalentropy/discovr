@@ -2,7 +2,6 @@
 
 ## 🧑‍💻 App
 
-- [ ] !! Fix minimum container size before the elements are loaded
 - [ ] handle missing img (default img)
 - [ ] handle app loading / loader
 - [ ] handle mobile viewport (searchbar)
@@ -18,6 +17,7 @@
 
 #
 
+- [x] ~~!! Fix minimum container size before the elements are loaded~~
 - [x] ~~( add bot ) button~~
 - [x] ~~Create the file structure~~
 - [x] ~~Search bar~~

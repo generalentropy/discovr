@@ -22,18 +22,24 @@
   padding: 6px 14px;
   border-radius: 5px;
   margin: 10px 0;
+  transition: background-color 0.5s ease;
+}
+
+.menu-btn:hover {
+  background-color: c.$headset-blue-logo;
 }
 
 .btn-add-bot {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: c.$accent;
-}
-.robot-icon {
-  margin-right: 5px;
+  background-color: c.$accent-darker;
 }
 
-.secondary-btn {
+.btn-add-bot:hover {
   background-color: c.$accent;
+}
+
+.robot-icon {
+  margin-right: 5px;
 }
