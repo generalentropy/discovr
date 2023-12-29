@@ -2,15 +2,15 @@ function Menu() {
   return (
     <div className="menu-wrapper">
       <span className="menu-btn btn-add-bot">
-        <BotIcon /> ajouter le bot
+        ajouter le bot <BotIcon />
       </span>
 
       <span className="menu-btn ">
-        <DocIcon /> documentation
+        documentation <DocIcon />
       </span>
 
       <span className="menu-btn ">
-        <FeedIcon /> feedback
+        feedback <FeedIcon />
       </span>
     </div>
   );

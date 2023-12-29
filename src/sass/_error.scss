@@ -10,3 +10,13 @@
   background-color: #ff408051;
   color: #ff98badc;
 }
+
+.btn-action-error {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.4s ease;
+}
+
+.btn-action-error:hover {
+  color: #fae7eedc;
+}
