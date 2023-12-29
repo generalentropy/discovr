@@ -1,9 +1,11 @@
 import Logo from "./Logo";
+import Menu from "./Menu";
 
 function Header() {
   return (
     <div className="header">
-      <Logo /> <span className="beta">(Beta)</span>
+      <Logo />
+      <Menu />
     </div>
   );
 }

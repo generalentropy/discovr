@@ -1,0 +1,39 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.menu-wrapper {
+  // @include m.b;
+  padding: 20px;
+  display: flex;
+  color: c.$text;
+  gap: 20px;
+}
+
+.menu-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: c.$soft-white;
+  background-color: c.$headset-blue-logo-darker;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.btn-add-bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: c.$accent;
+}
+.robot-icon {
+  margin-right: 5px;
+}
+
+.secondary-btn {
+  background-color: c.$accent;
+}

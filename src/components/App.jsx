@@ -18,7 +18,6 @@ function App() {
         <SearchBar>
           <SearchOptions />
         </SearchBar>
-
         <CardsContainer>
           <SortBy />
         </CardsContainer>

@@ -2,6 +2,23 @@
 
 ## 🧑‍💻 App
 
+- [ ] !! Fix minimum container size before the elements are loaded
+- [ ] handle missing img (default img)
+- [ ] handle app loading / loader
+- [ ] handle mobile viewport (searchbar)
+- [ ] ! fix flickering border (background) on Firefox
+- [ ] Responsive search bar
+- [ ] fix accessibility search bar
+- [ ] fix Firefox emoji length bug
+- [ ] fix padding & margin inconsistency
+- [ ] fix typography inconsistency
+- [ ] join button (hover effect)
+- [ ] doc
+- [ ] go to top
+
+#
+
+- [x] ~~( add bot ) button~~
 - [x] ~~Create the file structure~~
 - [x] ~~Search bar~~
 - [x] ~~Fix server image (object-fit) and border aliasing~~
@@ -11,20 +28,8 @@
 - [x] ~~Split hashtags into components~~
 - [x] ~~MUI + theme~~
 - [x] ~~Search options~~
-
-- [ ] handle missing img (default img)
-
-- [ ] handle app loading / loader
-- [ ] handle mobile viewport (searchbar)
-- [ ] ! fix flickering border (background) on Firefox
-- [ ] Responsive search bar
-- [ ] fix accessibility search bar
-- [ ] fix Firefox emoji length bug
-- [ ] fix padding & margin inconsistency
-- [ ] fix typography inconsistency
-- [ ] ( add bot ) button
-- [ ] join button (hover effect)
-- [ ] doc
+- [x] ~~Favicon~~
+- [x] ~~Exception & errors handling~~
 
 ## 🛠️ Backend
 

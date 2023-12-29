@@ -24,6 +24,8 @@ Process a directory of files recursively with -f/--folder:
 svgo -f path/to/directory_with_svgs -o path/to/output_directory
 ```
 
-## MISC
+## MISC 🔖
 
-https://kinsta.com/blog/errors-in-javascript/
+- https://kinsta.com/blog/errors-in-javascript/
+
+- https://www.npmjs.com/package/react-intersection-observer

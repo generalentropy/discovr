@@ -4,7 +4,6 @@
 body {
   display: flex;
   justify-content: center;
-  width: 100%;
   font-family: "Roboto", sans-serif;
   background-color: c.$bg-main;
 }
@@ -13,31 +12,27 @@ strong {
   font-weight: bold;
 }
 .app-container {
-  // @include m.b;
+  @include m.b;
+
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-// Webkit only
+// Scrollbar
 
-/* Barre de défilement entière */
 ::-webkit-scrollbar {
   width: 2px;
 }
 
-/* Fond de la barre (la piste) */
 ::-webkit-scrollbar-track {
   background: #212121;
 }
 
-/* Partie mobile de la scrollbar ( thumb) */
 ::-webkit-scrollbar-thumb {
   background: #ffe7fc90;
 }
 
-/* Apparence du thumb au survol ou au clic */
 ::-webkit-scrollbar-thumb:hover {
   background: #ffe7fc;
 }

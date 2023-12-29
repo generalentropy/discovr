@@ -4,11 +4,9 @@
 .header {
   @include m.flex-center;
   // @include m.b;
+  justify-content: space-around;
+
   color: c.$text;
-
   padding: 50px 10px;
-}
-
-.beta {
-  padding: 0 10px;
+  flex-wrap: wrap;
 }
