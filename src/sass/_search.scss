@@ -39,6 +39,7 @@
   border-radius: 50px;
   background-color: rgb(235, 235, 235);
   margin: 30px;
+  transition: box-shadow 0.3s ease;
 }
 
 #search::placeholder {
