@@ -3,7 +3,7 @@ import Logo from "./Logo";
 function Header() {
   return (
     <div className="header">
-      <Logo />
+      <Logo /> <span className="beta">(Beta)</span>
     </div>
   );
 }

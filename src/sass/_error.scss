@@ -1,0 +1,12 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.info-error {
+  //   @include m.b;
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #ff408051;
+  color: #ff98badc;
+}
