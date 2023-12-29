@@ -12,10 +12,13 @@ strong {
   font-weight: bold;
 }
 .app-container {
-  @include m.b;
-
+  // @include m.b;
+  width: 100vw;
+  width: 100dvw;
   display: flex;
   justify-content: center;
+
+  align-items: center; // required for error msgs
   flex-direction: column;
 }
 
