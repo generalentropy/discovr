@@ -13,9 +13,7 @@ function Cards({ children }) {
       try {
         setIsLoading(true);
 
-        const res = await fetch(
-          "https://discovr.visualartisan.fr/public_html/recolte.json"
-        );
+        const res = await fetch("/recolte.json");
 
         if (!res.ok) {
           throw new Error(
