@@ -42,13 +42,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <BrowserRouter>
-<Routes>
-  <Route path="/" element={<Main />}></Route>
-  <Route path="documentation" element={<Documentation />}></Route>
-  <Route path="*" element={<PageNotFound />}></Route>
-</Routes>
-</BrowserRouter> */
-}
