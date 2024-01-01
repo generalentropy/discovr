@@ -3,8 +3,6 @@ function Hashtag({ customStyle, name }) {
 
   const hashtagName = name.toLowerCase().trim();
 
-  // #server #discord #discovr
-
   if (hashtagName === "server") bgColor = "#f45bf1";
   if (hashtagName === "discovr") bgColor = "#00c7ba";
   if (hashtagName === "discord") bgColor = "#f7754f";

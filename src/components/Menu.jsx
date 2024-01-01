@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Menu() {
   return (
     <div className="menu-wrapper">
@@ -5,9 +7,11 @@ function Menu() {
         ajouter le bot <BotIcon />
       </span>
 
-      <span className="menu-btn ">
-        documentation <DocIcon />
-      </span>
+      <NavLink to="/documentation">
+        <span className="menu-btn ">
+          documentation <DocIcon />
+        </span>
+      </NavLink>
 
       <span className="menu-btn ">
         feedback <FeedIcon />
