@@ -13,9 +13,11 @@ function Menu() {
         </span>
       </NavLink>
 
-      <span className="menu-btn ">
-        feedback <FeedIcon />
-      </span>
+      <NavLink to="/feedback">
+        <span className="menu-btn ">
+          feedback <FeedIcon />
+        </span>
+      </NavLink>
     </div>
   );
 }

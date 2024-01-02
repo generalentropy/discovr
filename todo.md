@@ -14,9 +14,12 @@
 - [ ] join button (hover effect)
 - [ ] doc
 - [ ] go to top
+- [ ] feedback form
 
 #
 
+- [x] ~~Menu~~
+- [x] ~~React router~~
 - [x] ~~!! Fix minimum container size before the elements are loaded~~
 - [x] ~~( add bot ) button~~
 - [x] ~~Create the file structure~~

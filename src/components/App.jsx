@@ -9,6 +9,7 @@ import SortBy from "./SortBy";
 import SearchOptions from "./SearchOptions";
 import Documentation from "../pages/Documentation";
 import PageNotFound from "../pages/PageNotFound";
+import Form from "./Form";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -33,6 +34,7 @@ function App() {
               }
             ></Route>
             <Route path="/documentation" element={<Documentation />}></Route>
+            <Route path="/feedback" element={<Form />}></Route>
             <Route path="*" element={<PageNotFound />}></Route>
           </Routes>
         </BrowserRouter>

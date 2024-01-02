@@ -1,0 +1,11 @@
+@use "_colors" as c;
+@use "_mixins" as m;
+
+.feedback-wrapper {
+  color: c.$soft-white;
+}
+
+.feedback-wrapper h1 {
+  font-size: 28px;
+  font-weight: bold;
+}

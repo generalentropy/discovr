@@ -1,6 +1,6 @@
 @use "the-new-css-reset/css/reset.css";
-@use "_mixins.scss";
 @use "_colors.scss";
+@use "_mixins.scss";
 @use "_base.scss";
 @use "_header.scss";
 @use "_search.scss";
@@ -12,6 +12,7 @@
 @use "_error.scss";
 @use "_menu.scss";
 @use "_documentation.scss";
+@use "_contact.scss";
 @use "_mobile.scss";
 
 // 100/300/400/500/700/900
