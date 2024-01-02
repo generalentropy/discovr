@@ -11,9 +11,11 @@
 
 .menu-wrapper .active > .menu-btn {
   box-shadow: rgba(72, 142, 255, 0.877) 0px 7px 29px 0px;
+  border: 2px solid #ffffff58;
 }
 
 .menu-btn {
+  border: 2px solid transparent;
   cursor: pointer;
   min-height: 34px;
   display: flex;
