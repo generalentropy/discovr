@@ -9,8 +9,13 @@
   gap: 20px;
 }
 
+.menu-wrapper .active > .menu-btn {
+  box-shadow: rgba(72, 142, 255, 0.877) 0px 7px 29px 0px;
+}
+
 .menu-btn {
   cursor: pointer;
+  min-height: 34px;
   display: flex;
   justify-content: center;
   align-items: center;

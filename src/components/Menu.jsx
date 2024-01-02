@@ -3,9 +3,11 @@ import { NavLink } from "react-router-dom";
 function Menu() {
   return (
     <div className="menu-wrapper">
-      <span className="menu-btn btn-add-bot">
-        ajouter le bot <BotIcon />
-      </span>
+      <NavLink to="/">
+        <span className="menu-btn ">
+          app <EvaCubeOutline />
+        </span>
+      </NavLink>
 
       <NavLink to="/documentation">
         <span className="menu-btn ">
@@ -18,6 +20,10 @@ function Menu() {
           feedback <FeedIcon />
         </span>
       </NavLink>
+
+      <span className="menu-btn btn-add-bot">
+        ajouter le bot <BotIcon />
+      </span>
     </div>
   );
 }
@@ -81,6 +87,24 @@ function DocIcon() {
       <path
         fill="#fefefe"
         d="m19.74 8.33l-5.44-6a1 1 0 0 0-.74-.33h-7A2.53 2.53 0 0 0 4 4.5v15A2.53 2.53 0 0 0 6.56 22h10.88A2.53 2.53 0 0 0 20 19.5V9a1 1 0 0 0-.26-.67M14 5l2.74 3h-2a.79.79 0 0 1-.74-.85Zm3.44 15H6.56a.53.53 0 0 1-.56-.5v-15a.53.53 0 0 1 .56-.5H12v3.15A2.79 2.79 0 0 0 14.71 10H18v9.5a.53.53 0 0 1-.56.5"
+      />
+    </svg>
+  );
+}
+
+function EvaCubeOutline(props) {
+  return (
+    <svg
+      className="icon-btn-menu"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        fill="#fefefe"
+        d="m20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8a7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42M5 11a6 6 0 1 1 6 6a6 6 0 0 1-6-6"
       />
     </svg>
   );
