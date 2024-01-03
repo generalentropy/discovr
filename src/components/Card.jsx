@@ -59,9 +59,9 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
   const cardTags = hashtagsCleaner(tags);
   const averageRating = computeRating(rating);
 
-  function randomizeImgQuery() {
-    return `?random=${Math.ceil(Math.random() * 51)}`;
-  }
+  // function randomizeImgQuery() {
+  //   return `?random=${Math.ceil(Math.random() * 51)}`;
+  // }
 
   function computeRating(ratings) {
     if (ratings.length === 0) return 0;
@@ -81,7 +81,7 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
       <StarRating value={averageRating} />
       {console.log("jsx")}
       <div className="picture">
-        <img src={image + randomizeImgQuery()}></img>
+        <img src={image}></img>
       </div>
 
       <ServerInfoWrapper>

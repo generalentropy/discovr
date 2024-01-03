@@ -1,5 +1,4 @@
 import Switch from "@mui/material/Switch";
-import { useState } from "react";
 
 function SearchOptions({
   tagsChecked,
