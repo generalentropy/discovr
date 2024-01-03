@@ -13,6 +13,8 @@ import Documentation from "../pages/Documentation";
 import PageNotFound from "../pages/PageNotFound";
 import Form from "./Form";
 
+// const cachedValue = useMemo(calculateValue, dependencies)
+
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
@@ -31,15 +33,13 @@ function App() {
 
     const result = search.toLowerCase().includes(searchQuery.toLowerCase());
 
-    console.log(result);
     return result;
   });
 
   const searchedServer = searchQuery.length > 0 ? filtered : serversList;
 
-  console.log(searchedServer);
-
   useEffect(() => {
+    console.log("effect");
     const fetchData = async function () {
       try {
         setIsLoading(true);

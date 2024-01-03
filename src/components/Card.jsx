@@ -5,7 +5,7 @@ import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
 function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
-  // console.log("component re-render");
+  console.log("component re-render");
 
   function serverNameCleaner(server) {
     const servername = server.trim();
@@ -79,7 +79,7 @@ function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
   return (
     <div className="card-wrapper gradient-border">
       <StarRating value={averageRating} />
-
+      {console.log("jsx")}
       <div className="picture">
         <img src={image + randomizeImgQuery()}></img>
       </div>
