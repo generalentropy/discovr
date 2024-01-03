@@ -5,6 +5,8 @@ import JoinButton from "./JoinButton";
 import { OnlineIcon, MembersIcon } from "./Icones";
 
 function Card({ nom, image, desc, bump, online, tags, membres, rating }) {
+  // console.log("component re-render");
+
   function serverNameCleaner(server) {
     const servername = server.trim();
     const MAX_LENGTH = 22;

@@ -1,11 +1,14 @@
 import Switch from "@mui/material/Switch";
 import { useState } from "react";
 
-function SearchOptions() {
-  const [tagsChecked, setTagsChecked] = useState(true);
-  const [descriptionChecked, setDescriptionChecked] = useState(false);
-  const [nameChecked, setNameChecked] = useState(false);
-
+function SearchOptions({
+  tagsChecked,
+  setTagsChecked,
+  descriptionChecked,
+  setDescriptionChecked,
+  nameChecked,
+  setNameChecked,
+}) {
   return (
     <div className="search-options">
       <span className="option">Options de recherche :</span>

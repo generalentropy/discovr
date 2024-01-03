@@ -1,7 +1,10 @@
 import DiscordLogo from "./DiscordLogo";
-// import SearchIcon from "./SearchIcon";
 
-function SearchBar({ children }) {
+function SearchBar({ children, searchQuery, setSearchQuery }) {
+  function handleSearch(e) {
+    setSearchQuery(e.target.value);
+  }
+
   return (
     <div className="search-wrapper">
       <div className="title">
@@ -14,11 +17,13 @@ function SearchBar({ children }) {
       <form>
         <label htmlFor="search">Search</label>
         <input
+          onChange={(e) => handleSearch(e)}
           className="search"
           type="search"
           id="search"
           placeholder="Chercher par nom, centre d'intérêt, tag..."
           autoComplete="off"
+          value={searchQuery}
         ></input>
       </form>
       {children}

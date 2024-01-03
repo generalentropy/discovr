@@ -1,291 +1,372 @@
 {
-    "serveurs": [
-      {
-        "id": "10001",
-        "bump": 5,
-        "image": "https://picsum.photos/200",
-        "nom": "Adventure Travelers",
-        "description": "Partagez vos expériences de voyage, obtenez des conseils et découvrez de nouvelles destinations.",
-        "membres": 1150,
-        "online": 500,
-        "tags": ["voyage", "aventure", "exploration", "tourisme"],
-        "note": [4, 5, 4, 3]
-      },
-      {
-        "id": "10002",
-        "bump": 7,
-        "image": "https://picsum.photos/200",
-        "nom": "Fitness Fanatics",
-        "description": "Conseils de fitness, routines d'entraînement, nutrition et motivation pour rester en forme.",
-        "membres": 800,
-        "online": 300,
-        "tags": ["fitness", "santé", "exercice", "nutrition"],
-        "note": [5, 4, 4]
-      },
-      {
-        "id": "10003",
-        "bump": 9,
-        "image": "https://picsum.photos/200",
-        "nom": "Photography Pros",
-        "description": "Partagez vos photographies, discutez techniques et équipements.",
-        "membres": 950,
-        "online": 400,
-        "tags": ["photographie", "appareils", "techniques"],
-        "note": [4, 4, 5, 3, 4]
-      },
-      {
-        "id": "891234567",
-        "bump": 8,
-        "image": "https://picsum.photos/200",
-        "nom": "Green Thumb Gardeners",
-        "description": "Un espace pour les passionnés de jardinage. Échangez des astuces sur les plantes, partagez vos jardins et discutez de durabilité.",
-        "membres": 1120,
-        "online": 468,
-        "tags": ["jardinage", "plantes", "durabilité", "nature", "écologie"],
-        "note": [5, 4, 5]
-      },
-      {
-        "id": "567890123",
-        "bump": 6,
-        "image": "https://picsum.photos/200",
-        "nom": "Culinary Explorers",
-        "description": "Un groupe pour les amateurs de cuisine. Partagez des recettes, des astuces culinaires et découvrez de nouvelles saveurs.",
-        "membres": 900,
-        "online": 321,
-        "tags": [
-          "cuisine",
-          "recettes",
-          "gastronomie",
-          "vins",
-          "pâtisserie",
-          "diététique",
-          "cuisines du monde"
-        ],
-        "note": [4, 3, 4, 5, 5, 4]
-      },
-      {
-        "id": "678901234",
-        "bump": 11,
-        "image": "https://picsum.photos/200",
-        "nom": "Tech Innovators",
-        "description": "Dernières innovations technologiques et discussions sur les tendances de l'industrie. Idéal pour les passionnés de tech.",
-        "membres": 1350,
-        "online": 528,
-        "tags": [
-          "technologie",
-          "innovation",
-          "startups",
-          "intelligence artificielle",
-          "robotique",
-          "réalité virtuelle",
-          "crypto-monnaies",
-          "blockchain"
-        ],
-        "note": [5, 5, 4]
-      },
-      {
-        "id": "789012345",
-        "bump": 4,
-        "image": "https://picsum.photos/200",
-        "nom": "Movie Buffs",
-        "description": "Pour les cinéphiles : discussions sur les derniers films, critiques, échanges sur les classiques et les nouveautés.",
-        "membres": 678,
-        "online": 289,
-        "tags": ["films", "critiques", "cinéma", "réalisateurs"],
-        "note": [3, 2, 4, 2, 3, 3, 2, 4, 3]
-      },
-      {
-        "id": "123456789",
-        "bump": 10,
-        "image": "https://picsum.photos/200",
-        "nom": "Gaming Hub Gaming Hub gaming Gaming Hub gaming",
-        "description": "Un espace dynamique pour les amateurs de jeux vidéo. Échangez sur vos jeux préférés, partagez des astuces et participez à des tournois en ligne.",
-        "membres": 1467,
-        "online": 654,
-        "tags": ["jeux", "roleplay", "discussion"],
-        "note": []
-      },
-      {
-        "id": "987654321",
-        "bump": 76,
-        "image": "https://picsum.photos/200",
-        "nom": "Code World",
-        "description": "Code World est un sanctuaire pour les programmeurs. Que vous soyez un débutant cherchant à apprendre les bases ou un développeur expérimenté désireux de partager votre expertise, ce serveur est une mine d'or d'informations et de ressources sur la programmation, les dernières technologies et les meilleures pratiques de développement.",
-        "membres": 3197,
-        "online": 356,
-        "tags": ["dev", "frontend", "javascript", "backend"],
-        "note": [5, 3, 2, 1, 1, 5, 4]
-      },
-      {
-        "id": "555666777",
-        "bump": 66,
-        "image": "https://picsum.photos/200",
-        "nom": "Art et Création",
-        "description": "Un serveur pour les artistes de tous horizons. Partagez vos œuvres, découvrez de nouveaux styles et techniques, et collaborez sur des projets créatifs.",
-        "membres": 250,
-        "online": 54,
-        "tags": [
-          "ArtEtCreation",
-          "CommunauteArtistique",
-          "Creativite",
-          "Artistes",
-          "InspirationArtistique",
-          "GalerieArt",
-          "ConseilsArt",
-          "Peinture",
-          "Sculpture",
-          "Photographie"
-        ],
-        "note": [5, 3, 2, 1, 1, 5, 4]
-      },
-      {
-        "id": "1230986789",
-        "bump": 8,
-        "image": "https://picsum.photos/200",
-        "nom": "Grafikart - serveur officiel",
-        "image:": "https://i.imgur.com/O8uGnnb.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet",
-        "membres": 3456,
-        "online": 1234,
-        "tags": [
-          "dev",
-          "design",
-          "frontend",
-          "javascript",
-          "backend",
-          "france",
-          "programmation"
-        ],
-        "note": [5, 3, 2, 1, 1, 5, 4]
-      },
-      {
-        "id": "976018175",
-        "bump": 70,
-        "image": "https://picsum.photos/200",
-        "nom": "Mystère Débats",
-        "description": "Une communauté interactive pour les débats animés sur une multitude de sujets, allant de la politique à la culture pop. Idéal pour ceux qui cherchent à s'engager dans des discussions profondes et significatives.",
-        "membres": 1668,
-        "online": 218,
-        "tags": [],
-        "note": [1, 1, 1, 5, 3, 1, 1]
-      },
-      {
-        "id": "674509585",
-        "bump": 13,
-        "image": "https://picsum.photos/200",
-        "nom": "Pirate Arts",
-        "description": "Serveur dédié aux discussions sociales et discussions générales.",
-        "membres": 961,
-        "online": 1013,
-        "tags": [
-          "films",
-          "sports",
-          "social",
-          "asso",
-          "art",
-          "litterature",
-          "philo"
-        ],
-        "note": [2, 2, 5, 2, 5, 5, 5]
-      },
-      {
-        "id": "387794656",
-        "bump": 17,
-        "image": "https://picsum.photos/200",
-        "nom": "Galaxie Débats",
-        "description": "Serveur dédié aux discussions sociales et discussions générales.",
-        "membres": 2789,
-        "online": 705,
-        "tags": [
-          "social",
-          "discussion",
-          "films",
-          "société",
-          "projets",
-          "politique"
-        ],
-        "note": [1, 5, 2, 4, 3, 3, 4]
-      },
-      {
-        "id": "438640063",
-        "bump": 89,
-        "image": "https://picsum.photos/200",
-        "nom": "Fantasy Jeux",
-        "description": "Serveur dédié à la technologie et discussions générales.",
-        "membres": 967,
-        "online": 540,
-        "tags": ["musique", "sports", "tech"],
-        "note": [5, 4, 5, 1, 5, 5, 4]
-      },
-  
-      {
-        "id": "748953414",
-        "bump": 9,
-        "image": "https://picsum.photos/200",
-        "nom": "Jungle Débats",
-        "description": "Serveur dédié aux sports et discussions générales.",
-        "membres": 1010,
-        "online": 799,
-        "tags": ["musique", "tech", "social"],
-        "note": [4, 3, 4, 1, 5, 3, 3]
-      },
-  
-      {
-        "id": "873234510",
-        "bump": 17,
-        "image": "https://picsum.photos/200",
-        "nom": "Galaxie Musique",
-        "description": "Serveur dédié aux films et discussions générales.",
-        "membres": 1212,
-        "online": 1070,
-        "tags": ["social", "sports", "films"],
-        "note": [2, 3, 3, 1, 1, 3, 4]
-      },
-  
-      {
-        "id": "873298510",
-        "bump": 127,
-        "image": "https://picsum.photos/200",
-        "nom": "Galaxie Musique",
-        "description": "Serveur dédié aux films et discussions générales.",
-        "membres": 1212,
-        "online": 1070,
-        "tags": ["social", "sports", "films"],
-        "note": [2, 3, 3, 1, 1, 3, 4]
-      },
-  
-      {
-        "id": "87309850510",
-        "bump": 56,
-        "image": "https://picsum.photos/200",
-        "nom": "Galaxie Musique",
-        "description": "Serveur dédié aux films et discussions générales.",
-        "membres": 1212,
-        "online": 1070,
-        "tags": ["social", "sports", "films"],
-        "note": [2, 3, 3, 1, 1, 3, 4]
-      },
-      {
-        "id": "10004",
-        "bump": 8,
-        "image": "https://picsum.photos/200",
-        "nom": "Book Lovers Club",
-        "description": "Discussions sur les dernières sorties littéraires, critiques de livres et suggestions de lecture.",
-        "membres": 1200,
-        "online": 450,
-        "tags": ["littérature", "livres", "auteurs", "romans", "poésie"],
-        "note": [3, 4, 5, 4, 5, 5]
-      },
-      {
-        "id": "10005",
-        "bump": 6,
-        "image": "https://picsum.photos/200",
-        "nom": "Music Makers",
-        "description": "Espace pour les musiciens et amateurs de musique. Partagez vos compositions, découvrez de nouveaux genres.",
-        "membres": 1300,
-        "online": 500,
-        "tags": ["musique", "instruments", "compositions", "genres"],
-        "note": [5, 4, 4, 3, 2]
-      }
-    ]
-  }
+  "serveurs": [
+    {
+      "id": "10001",
+      "bump": 5,
+      "image": "https://picsum.photos/200",
+      "nom": "Adventure Travelers",
+      "description": "Partagez vos expériences de voyage, obtenez des conseils et découvrez de nouvelles destinations.",
+      "membres": 1150,
+      "online": 500,
+      "tags": ["voyage", "aventure", "exploration", "tourisme"],
+      "note": [4, 5, 4, 3]
+    },
+    {
+      "id": "10002",
+      "bump": 7,
+      "image": "https://picsum.photos/200",
+      "nom": "Fitness Fanatics",
+      "description": "Conseils de fitness, routines d'entraînement, nutrition et motivation pour rester en forme.",
+      "membres": 800,
+      "online": 300,
+      "tags": ["fitness", "santé", "exercice", "nutrition"],
+      "note": [5, 4, 4]
+    },
+    {
+      "id": "10003",
+      "bump": 9,
+      "image": "https://picsum.photos/200",
+      "nom": "Photography Pros",
+      "description": "Partagez vos photographies, discutez techniques et équipements.",
+      "membres": 950,
+      "online": 400,
+      "tags": ["photographie", "appareils", "techniques"],
+      "note": [4, 4, 5, 3, 4]
+    },
+    {
+      "id": "891234567",
+      "bump": 8,
+      "image": "https://picsum.photos/200",
+      "nom": "Green Thumb Gardeners",
+      "description": "Un espace pour les passionnés de jardinage. Échangez des astuces sur les plantes, partagez vos jardins et discutez de durabilité.",
+      "membres": 1120,
+      "online": 468,
+      "tags": ["jardinage", "plantes", "durabilité", "nature", "écologie"],
+      "note": [5, 4, 5]
+    },
+    {
+      "id": "567890123",
+      "bump": 6,
+      "image": "https://picsum.photos/200",
+      "nom": "Culinary Explorers",
+      "description": "Un groupe pour les amateurs de cuisine. Partagez des recettes, des astuces culinaires et découvrez de nouvelles saveurs.",
+      "membres": 900,
+      "online": 321,
+      "tags": [
+        "cuisine",
+        "recettes",
+        "gastronomie",
+        "vins",
+        "pâtisserie",
+        "diététique",
+        "cuisines du monde"
+      ],
+      "note": [4, 3, 4, 5, 5, 4]
+    },
+    {
+      "id": "678901234",
+      "bump": 11,
+      "image": "https://picsum.photos/200",
+      "nom": "Tech Innovators",
+      "description": "Dernières innovations technologiques et discussions sur les tendances de l'industrie. Idéal pour les passionnés de tech.",
+      "membres": 1350,
+      "online": 528,
+      "tags": [
+        "technologie",
+        "innovation",
+        "startups",
+        "intelligence artificielle",
+        "robotique",
+        "réalité virtuelle",
+        "crypto-monnaies",
+        "blockchain"
+      ],
+      "note": [5, 5, 4]
+    },
+    {
+      "id": "789012345",
+      "bump": 4,
+      "image": "https://picsum.photos/200",
+      "nom": "Movie Buffs",
+      "description": "Pour les cinéphiles : discussions sur les derniers films, critiques, échanges sur les classiques et les nouveautés.",
+      "membres": 678,
+      "online": 289,
+      "tags": ["films", "critiques", "cinéma", "réalisateurs"],
+      "note": [3, 2, 4, 2, 3, 3, 2, 4, 3]
+    },
+    {
+      "id": "123456789",
+      "bump": 10,
+      "image": "https://picsum.photos/200",
+      "nom": "Gaming Hub Gaming Hub gaming Gaming Hub gaming",
+      "description": "Un espace dynamique pour les amateurs de jeux vidéo. Échangez sur vos jeux préférés, partagez des astuces et participez à des tournois en ligne.",
+      "membres": 1467,
+      "online": 654,
+      "tags": ["jeux", "roleplay", "discussion"],
+      "note": []
+    },
+    {
+      "id": "987654321",
+      "bump": 76,
+      "image": "https://picsum.photos/200",
+      "nom": "Code World",
+      "description": "Code World est un sanctuaire pour les programmeurs. Que vous soyez un débutant cherchant à apprendre les bases ou un développeur expérimenté désireux de partager votre expertise, ce serveur est une mine d'or d'informations et de ressources sur la programmation, les dernières technologies et les meilleures pratiques de développement.",
+      "membres": 3197,
+      "online": 356,
+      "tags": ["dev", "frontend", "javascript", "backend"],
+      "note": [5, 3, 2, 1, 1, 5, 4]
+    },
+    {
+      "id": "555666777",
+      "bump": 66,
+      "image": "https://picsum.photos/200",
+      "nom": "Art et Création",
+      "description": "Un serveur pour les artistes de tous horizons. Partagez vos œuvres, découvrez de nouveaux styles et techniques, et collaborez sur des projets créatifs.",
+      "membres": 250,
+      "online": 54,
+      "tags": [
+        "ArtEtCreation",
+        "CommunauteArtistique",
+        "Creativite",
+        "Artistes",
+        "InspirationArtistique",
+        "GalerieArt",
+        "ConseilsArt",
+        "Peinture",
+        "Sculpture",
+        "Photographie"
+      ],
+      "note": [5, 3, 2, 1, 1, 5, 4]
+    },
+    {
+      "id": "1230986789",
+      "bump": 8,
+      "image": "https://picsum.photos/200",
+      "nom": "Grafikart - serveur officiel",
+      "image:": "https://i.imgur.com/O8uGnnb.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet",
+      "membres": 3456,
+      "online": 1234,
+      "tags": [
+        "dev",
+        "design",
+        "frontend",
+        "javascript",
+        "backend",
+        "france",
+        "programmation"
+      ],
+      "note": [5, 3, 2, 1, 1, 5, 4]
+    },
+    {
+      "id": "976018175",
+      "bump": 70,
+      "image": "https://picsum.photos/200",
+      "nom": "Mystère Débats",
+      "description": "Une communauté interactive pour les débats animés sur une multitude de sujets, allant de la politique à la culture pop. Idéal pour ceux qui cherchent à s'engager dans des discussions profondes et significatives.",
+      "membres": 1668,
+      "online": 218,
+      "tags": [],
+      "note": [1, 1, 1, 5, 3, 1, 1]
+    },
+    {
+      "id": "674509585",
+      "bump": 13,
+      "image": "https://picsum.photos/200",
+      "nom": "Pirate Arts",
+      "description": "Serveur dédié aux discussions sociales et discussions générales.",
+      "membres": 961,
+      "online": 1013,
+      "tags": [
+        "films",
+        "sports",
+        "social",
+        "asso",
+        "art",
+        "litterature",
+        "philo"
+      ],
+      "note": [2, 2, 5, 2, 5, 5, 5]
+    },
+    {
+      "id": "387794656",
+      "bump": 17,
+      "image": "https://picsum.photos/200",
+      "nom": "Galaxie Débats",
+      "description": "Serveur dédié aux discussions sociales et discussions générales.",
+      "membres": 2789,
+      "online": 705,
+      "tags": [
+        "social",
+        "discussion",
+        "films",
+        "société",
+        "projets",
+        "politique"
+      ],
+      "note": [1, 5, 2, 4, 3, 3, 4]
+    },
+    {
+      "id": "438640063",
+      "bump": 89,
+      "image": "https://picsum.photos/200",
+      "nom": "Fantasy Jeux",
+      "description": "Serveur dédié à la technologie et discussions générales.",
+      "membres": 967,
+      "online": 540,
+      "tags": ["musique", "sports", "tech"],
+      "note": [5, 4, 5, 1, 5, 5, 4]
+    },
+
+    {
+      "id": "748953414",
+      "bump": 9,
+      "image": "https://picsum.photos/200",
+      "nom": "Jungle Débats",
+      "description": "Serveur dédié aux sports et discussions générales.",
+      "membres": 1010,
+      "online": 799,
+      "tags": ["musique", "tech", "social"],
+      "note": [4, 3, 4, 1, 5, 3, 3]
+    },
+
+    {
+      "id": "873234510",
+      "bump": 17,
+      "image": "https://picsum.photos/200",
+      "nom": "Galaxie Musique",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
+    },
+
+    {
+      "id": "873298510",
+      "bump": 127,
+      "image": "https://picsum.photos/200",
+      "nom": "Galaxie Musique",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
+    },
+
+    {
+      "id": "8730985990510",
+      "bump": 56,
+      "image": "https://picsum.photos/200",
+      "nom": "Galaxie Musique II",
+      "description": "Serveur dédié aux films et discussions générales.",
+      "membres": 1212,
+      "online": 1070,
+      "tags": ["social", "sports", "films"],
+      "note": [2, 3, 3, 1, 1, 3, 4]
+    },
+    {
+      "id": "10004",
+      "bump": 8,
+      "image": "https://picsum.photos/200",
+      "nom": "Book Lovers Club",
+      "description": "Discussions sur les dernières sorties littéraires, critiques de livres et suggestions de lecture.",
+      "membres": 1200,
+      "online": 450,
+      "tags": ["littérature", "livres", "auteurs", "romans", "poésie"],
+      "note": [3, 4, 5, 4, 5, 5]
+    },
+
+    {
+      "id": "10005",
+      "bump": 6,
+      "image": "https://picsum.photos/200",
+      "nom": "Music Makers",
+      "description": "Espace pour les musiciens et amateurs de musique. Partagez vos compositions, découvrez de nouveaux genres.",
+      "membres": 1300,
+      "online": 500,
+      "tags": ["musique", "instruments", "compositions", "genres"],
+      "note": [5, 4, 4, 3, 2]
+    },
+
+    {
+      "id": "2003456789",
+      "bump": 5,
+      "image": "https://picsum.photos/210",
+      "nom": "CodeStream Community",
+      "description": "A vibrant community for developers focusing on code sharing and collaboration.",
+      "membres": 2567,
+      "online": 1456,
+      "tags": [
+        "programming",
+        "collaboration",
+        "opensource",
+        "git",
+        "javascript",
+        "python",
+        "webdev"
+      ],
+      "note": [4, 4, 3, 5, 2, 5, 4, 3]
+    },
+    {
+      "id": "3004567891",
+      "bump": 7,
+      "image": "https://picsum.photos/220",
+      "nom": "Pixel Pioneers",
+      "description": "Exploring the frontiers of digital design and creativity.",
+      "membres": 1890,
+      "online": 789,
+      "tags": ["design", "digitalart", "ux", "ui", "creativity", "graphics"],
+      "note": [5, 4, 3, 4, 5, 4, 2]
+    },
+
+    {
+      "id": "6007891234",
+      "bump": 4,
+      "image": "https://picsum.photos/250",
+      "nom": "TechTalks Hub",
+      "description": "Latest in technology, AI, and innovations. Weekly expert talks.",
+      "membres": 1500,
+      "online": 500,
+      "tags": ["technology", "ai", "innovation", "talks", "trends"],
+      "note": [3, 3, 4, 5, 5, 2]
+    },
+    {
+      "id": "7008912345",
+      "bump": 9,
+      "image": "https://picsum.photos/260",
+      "nom": "BackEnd Brigade",
+      "description": "Dedicated to server-side programming and database management.",
+      "membres": 3678,
+      "online": 1587,
+      "tags": [
+        "backend",
+        "server",
+        "database",
+        "nodejs",
+        "php",
+        "python",
+        "apis"
+      ],
+      "note": [4, 4, 5, 3, 5, 4, 2, 5]
+    },
+    {
+      "id": "8009123456",
+      "bump": 2,
+      "image": "https://picsum.photos/270",
+      "nom": "The Game Dev Guild",
+      "description": "Game development, design, and marketing for indie game enthusiasts.",
+      "membres": 2345,
+      "online": 987,
+      "tags": [
+        "gamedev",
+        "design",
+        "marketing",
+        "indiegames",
+        "unity",
+        "unrealengine"
+      ],
+      "note": [5, 2, 3, 4, 5, 1, 4]
+    }
+  ]
+}

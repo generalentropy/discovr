@@ -1,54 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Card from "./Card";
 import Loader from "./Loader";
 import Error from "./Error";
 
-function Cards({ children }) {
-  const [serversList, setServersList] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    const fetchData = async function () {
-      try {
-        setIsLoading(true);
-
-        const res = await fetch("/recolte.json");
-
-        if (!res.ok) {
-          throw new Error(
-            `Erreur lors de la récupération des données ${res.status}`
-          );
-        }
-        const data = await res.json();
-
-        setServersList(data.serveurs);
-        setIsLoading(false);
-      } catch (error) {
-        if (
-          (error.name === "TypeError" &&
-            error.message.includes("NetworkError")) ||
-          error.message.includes("Failed to fetch")
-        ) {
-          setError(
-            "Erreur réseau : impossible de se connecter au serveur de données."
-          );
-          setIsLoading(false);
-        } else {
-          console.log(error.message);
-          setError(
-            `Une erreur est survenue lors de la récupération des données: ${error.message}`
-          );
-          setIsLoading(false);
-        }
-      } finally {
-        console.log("end");
-        setIsLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
+function Cards({ children, isLoading, error, serversList }) {
+  // const searchedServer =
+  //   serversList.length > 0
+  //     ? serversList.filter((post) =>
+  //         `${post.title} ${post.body}`
+  //           .toLowerCase()
+  //           .includes(searchQuery.toLowerCase())
+  //       )
+  //     : serversList;
 
   if (isLoading && !error) return <Loader />;
   if (error) return <Error error={error} />;
