@@ -18,6 +18,7 @@
 
 #
 
+- [x] ~~Fix component useless re-render (tags & picture)~~
 - [x] ~~Menu~~
 - [x] ~~React router~~
 - [x] ~~!! Fix minimum container size before the elements are loaded~~
