@@ -13,8 +13,6 @@ import Documentation from "../pages/Documentation";
 import PageNotFound from "../pages/PageNotFound";
 import Form from "./Form";
 
-// const cachedValue = useMemo(calculateValue, dependencies)
-
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
